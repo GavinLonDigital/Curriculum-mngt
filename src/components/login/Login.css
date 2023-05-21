@@ -1,0 +1,20 @@
+.login-container{
+    padding:0px;
+    margin:0px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.login-layout{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+}
+.login-error-message{
+    color:red;
+}
+@media only screen and (max-width: 700px) {
+    .login-layout{
+        width:350px;
+    }
+}

@@ -1,0 +1,11 @@
+.card-header-layout{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .instructor{
+        display: none;
+    }
+    .course-title{
+        font-size:.7rem;
+    }
+}
